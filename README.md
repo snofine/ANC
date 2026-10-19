@@ -1,6 +1,16 @@
-# ANCApp 0.1 — безопасный измерительный MVP
+# ANCApp — Real-Time Active Noise Cancellation MVP
 
-Built with codex
+> ⚡ **Built, architected, and DSP-optimized with OpenAI Codex**
+
+ANCApp is an experimental real-time Active Noise Cancellation (ANC) engine designed for single boom-mic USB headsets. It tackles the fundamental physics problem: testing phase inversion latency and attenuating consistent low-frequency tones directly at the ear.
+
+### 🔬 Core Architecture
+* **Low-Latency Audio Processing**: Real-time phase shift & FIR/IIR filter pipeline.
+* **Hardware Target**: Tuned for USB boom-microphones with strict latency benchmarks.
+* **Safety First**: Conservative gain stages to avoid acoustic feedback loops.
+
+---
+
 
 Это первый этап системы активного шумоподавления для USB-гарнитуры с одним boom-микрофоном. Он предназначен для проверки одного физического вопроса: можно ли при конкретной гарнитуре, посадке и задержке ослабить стабильный низкочастотный тон у уха.
 
